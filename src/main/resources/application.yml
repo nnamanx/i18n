@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: book-crud
+  profiles:
+    include:
+      - db
+  messages:
+    basename: i18n/messages_az.properties
